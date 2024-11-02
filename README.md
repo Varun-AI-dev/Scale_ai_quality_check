@@ -20,7 +20,7 @@ Ideas for Improvement
 
 
 # Setup
-1. Clone the Repository: git clone https://github.com/your_username/observe_sign_quality_check.git
+1. Clone the Repository: git clone https://github.com/Varun-AI-dev/Scale_ai_quality_check.git
 2. cd observe_sign_quality_check
 3. Install Required Libraries: pip install -r requirements.txt
    Key libraries include:
