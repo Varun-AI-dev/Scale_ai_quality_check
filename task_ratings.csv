@@ -1,0 +1,9 @@
+Task ID,Audit Rating,Area Rating,Label Rating,Occlusion Rating,Final Rating,Annotated Image Path,Issues
+5f127f55fdc4150010e37244,1,0.5,1,1,Silver,annotated_5f127f55fdc4150010e37244_annotated.png,Bounding box area deviation issues: 52.38%
+5f127f5ab1cb1300109e4ffc,0,1,1,1,Bronze,annotated_5f127f5ab1cb1300109e4ffc_annotated.png,Audit rejection rate: 100.00%
+5f127f5f3a6b100017232099,0,1,1,1,Bronze,annotated_5f127f5f3a6b100017232099_annotated.png,Audit rejection rate: 100.00%
+5f127f643a6b1000172320a5,0.5,1,1,1,Silver,annotated_5f127f643a6b1000172320a5_annotated.png,Audit rejection rate: 50.00%
+5f127f671ab28b001762c204,0.5,1,1,1,Silver,annotated_5f127f671ab28b001762c204_annotated.png,Audit rejection rate: 50.00%
+5f127f699740b80017f9b170,0,1,1,1,Bronze,annotated_5f127f699740b80017f9b170_annotated.png,Audit rejection rate: 100.00%
+5f127f6c3a6b1000172320ad,0.5,1,1,1,Silver,annotated_5f127f6c3a6b1000172320ad_annotated.png,Audit rejection rate: 50.00%
+5f127f6f26831d0010e985e5,1,1,1,1,Gold,annotated_5f127f6f26831d0010e985e5_annotated.png,
