@@ -12,10 +12,15 @@ The goal is to make a flexible, reliable script that can handle big batches of i
 
 # Table of Contents
 Setup
+
 How to Use
+
 What the Script Checks
+
 Using the Scale API
+
 What’s Included
+
 Ideas for Improvement
 
 
