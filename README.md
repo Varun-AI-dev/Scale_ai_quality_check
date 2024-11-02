@@ -48,7 +48,6 @@ What the Script Checks
 The script reviews each task based on four key criteria to ensure quality:
 
 Audit Results:
-
 If a task was flagged multiple times during review, it may indicate low quality.
 Bounding Box Size Consistency:
 
@@ -56,18 +55,22 @@ It checks if any bounding boxes are unusually large or small compared to others 
 Label Accuracy:
 
 The script makes sure each box is labeled correctly. Expected labels include:
+
 traffic_control_sign, construction_sign, information_sign, policy_sign, non_visible_face.
+
 Occlusion:
 
 Boxes with high occlusion (50% or more hidden) are flagged, as they may not be useful for training.
 Rating System
+
 The script rates each task based on these criteria:
 
 
 # What’s Included
 Quality Check Script:
 
-This script reads task data, checks for issues, and outputs a .csv with results.
+This script reads task data, checks for issues, and outputs a .csv, with annotated images(red bounding box shows annotations with error).
+
 Reflection Document:
 
 A short write-up on how this process could be improved over time.
@@ -82,12 +85,20 @@ Here are some ideas to make the script better in the future:
 Additional Checks:
 
 Look for bounding boxes that are too close to the edge of the image or overlap other boxes significantly, which may indicate errors.
+
 Severity Levels:
 
 Create different severity levels for issues: "warning" for minor problems, and "error" for serious ones. This makes it easier to prioritize fixes.
+
 Run on the Cloud:
 
 Set up the script to run on cloud servers so it can handle large datasets (like 250,000 images) more efficiently.
+
+Pre-trained ML model:
+We can set up comparison constraint using pre-trained Ml models to get better annotation score.
+
+
+
 Color Analysis with OpenCV:
 
 Use OpenCV to analyze colors inside each bounding box. For example, check if boxes labeled as "Red Traffic Light" actually contain mostly red pixels.
