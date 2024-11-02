@@ -27,12 +27,13 @@ Ideas for Improvement
 # Setup
 1. Clone the master Repository: git clone https://github.com/Varun-AI-dev/Scale_ai_quality_check.git
 2. cd Scale_ai_quality_check
-3. Install Required Libraries: pip install -r requirements.txt
+3. git checkout master
+4. Install Required Libraries: pip install -r requirements.txt
    Key libraries include:
    requests - for downloading images from URLs.
    Pillow - for marking up and saving images.
    Standard libraries like csv and json for handling data.
-4. Get Access to the Scale API:
+5. Get Access to the Scale API:
    Log into the Scale dashboard to get your API key.
    Steps:
     1. Click on the user icon in the top right.
