@@ -95,9 +95,12 @@ Run on the Cloud:
 Set up the script to run on cloud servers so it can handle large datasets (like 250,000 images) more efficiently.
 
 Pre-trained ML model:
-We can set up comparison constraint using pre-trained Ml models to get better annotation score.
 
+We can set up comparison constraints using pre-trained Ml models to get better annotation scores.
 
+Use the LLM model:
+
+Help in better understanding responses "customer_review_comments" can help in comparison. 
 
 Color Analysis with OpenCV:
 
